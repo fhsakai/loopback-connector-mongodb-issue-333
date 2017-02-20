@@ -1,0 +1,14 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "db333": {
+    "name": "db333",
+	"connector": "mongodb",
+	"database": "db333",
+	"autoReconnect":true,
+	"reconnectTries": 60,
+	"reconnectInterval": 100
+  }
+}
